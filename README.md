@@ -52,13 +52,13 @@ Below is a detailed architecture of the entire system:
 
 ---
 
-##🙌 Contributions
+## 🙌 Contributions
 
 Feel free to open issues, create pull requests, or suggest improvements! Let's build something great together.
 
 ---
 
-##🧑‍💻 Developed By
+## 🧑‍💻 Developed By
 
 Ashutosh Singh
 Full-Stack Developer | MERN Stack | Microservices Enthusiast
