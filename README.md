@@ -10,6 +10,14 @@ This project is based on a **microservices architecture** where each service is 
 
 ---
 
+## 📄 High-Level Design (HLD)
+
+You can view the High-Level Design (HLD) document for more detailed information on the system architecture, flow, and implementation:
+
+[🔗 HLD Document](https://drive.google.com/uc?id=1n1Y7nMOoXsJhSiYIiXObwpAP-hYgAd3q)
+
+---
+
 ## 🏗️ Architecture Diagram
 
 Below is a detailed architecture of the entire system:
