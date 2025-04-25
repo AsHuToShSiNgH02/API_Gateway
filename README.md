@@ -1,23 +1,64 @@
-# ✈️ Airline Booking System - API Gateway
+# ✈️ Airline Backend System – API Gateway
 
-Welcome to the **API Gateway** of the **Airline Booking Microservices Backend System**. This serves as the **entry point** for all client-facing requests and handles routing, load balancing, authentication, and communication with other internal microservices. The project is designed with scalability and separation of concerns in mind, following modern microservices architecture patterns.
+Welcome to the **API Gateway** repository of the **Airline Backend System**. This acts as the single entry point for client applications (web/mobile) to access multiple microservices behind the scenes. Built using Node.js and Express, it handles authentication, routing, request forwarding, and centralizes access control.
 
 ---
 
-## 🧠 Overview
+## 🌐 Overview
 
-The Airline Booking System is a distributed system that allows users to:
-
-- Search and filter available flights.
-- Book tickets with real-time availability.
-- Get notified of flight updates and reminders.
-- Register, login, and securely manage their profile.
-
-This repository acts as the **central API Gateway** that interacts with the various internal services.
+This project is based on a **microservices architecture** where each service is independently developed and deployed. The API Gateway plays a vital role in exposing unified endpoints to external clients and routing traffic internally to appropriate microservices.
 
 ---
 
 ## 🏗️ Architecture Diagram
 
-                  ![image](https://github.com/user-attachments/assets/7837f997-f336-43e5-ae05-44f86fab1827)
+Below is a detailed architecture of the entire system:
 
+![Airline Backend Architecture](./ceed19bd-3bd3-4145-a791-20f16917c3a6.png)
+
+---
+
+## 🧩 Microservices
+
+| Service Name              | Description                                            | Repository Link |
+|--------------------------|--------------------------------------------------------|-----------------|
+| **Authentication Service** | Handles user sign-up, login, JWT auth                 | [🔗 Auth Service](https://github.com/AsHuToShSiNgH02/Auth_Service) |
+| **Searching Service**      | Allows users to search flights                        | [🔗 Flight Service](https://github.com/AsHuToShSiNgH02/FlightsAndSearchService) |
+| **Booking Service**        | Books flights, allocates seats, confirms booking      | [🔗 Booking Service](https://github.com/AsHuToShSiNgH02/AirTicketBookingService) |
+| **Reminder Service**       | Sends booking reminders and notifications via email   | [🔗 Reminder Service](https://github.com/AsHuToShSiNgH02/ReminderService) |
+| **API Gateway**            | Central routing and access control                    | ✅ You are here |
+
+---
+
+## 🧠 Features
+
+- ✅ Centralized API routing
+- 🔐 JWT-based Authentication support
+- 🚦 Handles rate-limiting and load balancing integration
+- 🧭 Connects multiple microservices via clean RESTful routes
+- 🛡️ Prevents direct client access to internal services
+- 📨 Supports asynchronous event handling with RabbitMQ
+
+---
+
+## 🚀 Tech Stack
+
+- **Node.js / Express**
+- **JWT for Auth**
+- **RabbitMQ** (for Reminder Service)
+- **MySQL / MongoDB** (per-service DB strategy)
+- **Docker & Postman** for dev & testing (optional)
+
+---
+
+##🙌 Contributions
+
+Feel free to open issues, create pull requests, or suggest improvements! Let's build something great together.
+
+---
+
+##🧑‍💻 Developed By
+
+Ashutosh Singh
+Full-Stack Developer | MERN Stack | Microservices Enthusiast
+📧 ashutoshin2002@gmail.com
