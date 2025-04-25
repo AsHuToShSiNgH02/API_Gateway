@@ -14,7 +14,8 @@ This project is based on a **microservices architecture** where each service is 
 
 Below is a detailed architecture of the entire system:
 
-![Airline Backend Architecture](./ceed19bd-3bd3-4145-a791-20f16917c3a6.png)
+![My Image](https://drive.google.com/uc?id=1yY4aO_ZgYiEmO7OYigrq0Taemaddvo0k)
+
 
 ---
 
